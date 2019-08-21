@@ -23,7 +23,9 @@ quote[4] = '''
     ‘-------’ at will to old ladies.
     '''
 
-
+quote[5] = '''
+    Brother Maynard – bring forth the holy ---- ----!
+    '''
 
 def holy_grail(num):
     return quote[num]
