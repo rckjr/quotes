@@ -1,16 +1,23 @@
 import numpy as np
 
-def holy_grail(num):
-    quote = {}
+quote = {}
 
-    quote[1] = '''
-    Strange women lying in ponds distributing swords 
+quote[1] = '''
+    Strange women lying in ponds distributing swords
     is no basis for a system of -------.
     '''
 
-    print(quote[num])
+quote[2] = '''
+    I am an enchanter. There are some who call me… ----.
+    '''
 
-    
+
+
+
+def holy_grail(num):
+    return quote[num]
+
+
 if __name__ == '__main__':
     num  = np.random.randint(1, 8)
     holy_grail(num)
