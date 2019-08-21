@@ -27,6 +27,12 @@ quote[5] = '''
     Brother Maynard – bring forth the holy ---- ----!
     '''
 
+quote[6] = '''
+    Bridgekeeper: “What… is the air-speed velocity of an unladen swallow?”
+    King Arthur: “What do you mean? An ------- or a ---- swallow?”
+    Bridgekeeper: “I don’t know that. Aaaaaaaaagh!”
+    '''
+    
 def holy_grail(num):
     return quote[num]
 
