@@ -18,6 +18,11 @@ quote[3] = '''
     Black Knight: “It’s just a ------ ------…”
     '''
 
+quote[4] = '''
+    What sad times are these when passing ruffians can say
+    ‘-------’ at will to old ladies.
+    '''
+
 
 
 def holy_grail(num):
