@@ -1,0 +1,66 @@
+import numpy as np
+
+def holy_grail1():
+    quote = '''
+    Strange women lying in ponds distributing swords 
+    is no basis for a system of -------.
+    '''
+    return quote
+
+
+def holy_grail2():
+    quote = '''
+    I am an enchanter. There are some who call me… ----.
+    '''
+
+def holy_grail3():
+    quote = '''
+    King Arthur: “Look, you stupid b***ard, you’ve got no arms left!”
+    Black Knight: “Yes I have.”
+    King Arthur: “Look!”
+    Black Knight: “It’s just a ------ ------…”
+    '''
+
+
+def holy_grail4():
+    quote = '''
+    What sad times are these when passing ruffians can say 
+    ‘-------’ at will to old ladies.
+    '''
+
+def holy_grail5():
+    quote = '''
+    Brother Maynard – bring forth the holy ---- ----!
+    '''
+
+def holy_grail6():
+    quote = '''
+    Bridgekeeper: “What… is the air-speed velocity of an unladen swallow?”
+    King Arthur: “What do you mean? An ------- or a ---- swallow?”
+    Bridgekeeper: “I don’t know that. Aaaaaaaaagh!”
+    '''
+
+def holy_grail7():
+    quote = '''
+    Bridgekeeper: “What… is your favourite colour?”
+    Sir Lancelot: --------
+    Bridgekeeper: “Right. Off you go.”
+    '''
+
+def holy_grail8(num):
+    quote = {}
+    quote[1] = '''
+    Come and see the violence inherent in the system. 
+    Help! Help! I’m being -----!
+    '''
+
+    quote[2] = '''
+    Come and see the violence inherent in the system. 
+    Help! Help! I’m being repressed!
+    '''
+    return quote[num]
+
+    
+if __name__ == '__main__':
+    num  = np.random.randint(1, 8)
+    holy_grail8(num)
