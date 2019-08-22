@@ -44,6 +44,11 @@ quote[8] = '''
     Help! Help! I’m being -----!
     '''
 
+quote[9] = '''
+    He's not Quite dead.
+    '''
+
+
 def holy_grail(num):
     return quote[num]
 
