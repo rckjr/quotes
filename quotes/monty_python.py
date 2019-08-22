@@ -38,7 +38,12 @@ quote[7] = '''
     Sir Lancelot: --------
     Bridgekeeper: “Right. Off you go.”
     '''
-    
+
+quote[8] = '''
+    Come and see the violence inherent in the system.
+    Help! Help! I’m being -----!
+    '''
+
 def holy_grail(num):
     return quote[num]
 
