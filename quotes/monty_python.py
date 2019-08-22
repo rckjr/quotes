@@ -32,6 +32,12 @@ quote[6] = '''
     King Arthur: “What do you mean? An ------- or a ---- swallow?”
     Bridgekeeper: “I don’t know that. Aaaaaaaaagh!”
     '''
+
+quote[7] = '''
+    Bridgekeeper: “What… is your favourite colour?”
+    Sir Lancelot: --------
+    Bridgekeeper: “Right. Off you go.”
+    '''
     
 def holy_grail(num):
     return quote[num]
