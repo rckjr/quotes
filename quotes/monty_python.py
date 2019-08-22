@@ -45,7 +45,7 @@ quote[8] = '''
     '''
 
 quote[9] = '''
-    He's not quite dead.
+    He's not Quite dead.
     '''
 
 
